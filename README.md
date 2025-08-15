@@ -1,0 +1,2 @@
+# introductionJavascript
+Javascriptga kirish
