@@ -7,17 +7,17 @@ Misol:
 Input: 600000 so'm → Chegirma: 60000 so'm, To'lov: 540000 so'm
  */
 
-let summa = Number(prompt("Xarid Summasini kiriting:"))
+let summa = Number(prompt("Xarid Summasini kiriting:"));
 function task16(summa) {
     if(summa>0){
         if(summa>=500000){
-            console.log(`Chegirma: ${summa/10} so'm, To'lov: ${summa - summa/10}  so'm`)
+            console.log(`Chegirma: ${summa/10} so'm, To'lov: ${summa - summa/10}  so'm`);
         }else{
-            console.log(` To'lov: ${summa} so'm`)
+            console.log(` To'lov: ${summa} so'm`);
         }
     }else{
-        console.log("narsa olmabsiz!")
+        console.log("narsa olmabsiz!");
     }
 }
 
-task16(summa)
+task16(summa);

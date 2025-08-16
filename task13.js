@@ -5,16 +5,16 @@ Misol:
 Input: 40 soat, 15 so'm/soat → Natija: 600 so'm
  */
 
-let workTime = Number(prompt("Ishlagan soatiz"))
-let timeSolary = Number(prompt("Soatlik moash"))
+let workTime = Number(prompt("Ishlagan soatiz"));
+let timeSolary = Number(prompt("Soatlik moash"));
 
 function task13(ishVaqti, vaqtNarxi) {
     if(ishVaqti>0 && vaqtNarxi>0){
-        console.log(` Natija: ${ishVaqti*vaqtNarxi}`)
+        console.log(` Natija: ${ishVaqti*vaqtNarxi}`);
     }else{
-        console.log("Xatolik")
+        console.log("Xatolik");
     }
     
 }
-task13(workTime,timeSolary)
+task13(workTime,timeSolary);
 

@@ -5,14 +5,14 @@ Misol:
 Input: 10 dollar → Kutilgan natija: 106500 so'm
  */
 
-let dollar = Number(prompt("$ kiriting borizni janobiy oliylari"))
+let dollar = Number(prompt("$ kiriting borizni janobiy oliylari"));
 
 function task11(sum) {
     if(sum>0){
-        console.log(`${sum *10650 } bek sizning puliz shuncha ekan`)
+        console.log(`${sum *10650 } bek sizning puliz shuncha ekan`);
     }else if(sum<0){
-        console.log(`Bek minusda ekansiz`)
+        console.log(`Bek minusda ekansiz`);
     }
 }
 
-task11(dollar)
+task11(dollar);

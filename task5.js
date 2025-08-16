@@ -9,22 +9,22 @@ Misol:
 Input: 85 → "B"
 */
 
-let mark = Number(prompt("0 va 100 oralig'ida ball kiriting!"))
+let mark = Number(prompt("0 va 100 oralig'ida ball kiriting!"));
 
 function task5(mark) {
     if(0<=mark && mark<60){
-        console.log("F")
+        console.log("F");
     }else if(mark>=60 && mark<70){
-        console.log(`D`)
+        console.log(`D`);
     }else if(mark>=70 && mark<80){
-        console.log(`C`)
+        console.log(`C`);
     }else if(mark>=80 && mark<90){
-        console.log(`B`)
+        console.log(`B`);
     }else if(mark>=90 && mark<=100){
-        console.log(`A`)
+        console.log(`A`);
     }else{
-        console.log(`Siz natog'ri baxo kiritdingiz`)
+        console.log(`Siz natog'ri baxo kiritdingiz`);
     }
 } 
 
-task5(mark)
+task5(mark);

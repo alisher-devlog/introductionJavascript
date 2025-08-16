@@ -8,18 +8,18 @@ Misol:
 Input: 25 → "Havo juda quruq."
 */
 
-let wet = Number(prompt("Havoning Namligini kirting"))
+let wet = Number(prompt("Havoning Namligini kirting"));
 
 
 function task9(namlikFoizi) {
     if(namlikFoizi>=0 && namlikFoizi<30){
-        console.log('Havo juda quruq.')
+        console.log('Havo juda quruq.');
     }else if(namlikFoizi>=30 && namlikFoizi<60){
-        console.log('Havo qulay.')
+        console.log('Havo qulay.');
     }else if(namlikFoizi>=60 && namlikFoizi<=100){
-        console.log('Havo nam.')
+        console.log('Havo nam.');
     }else {
-        console.log('Xatolik boshqa foiz ko`rsatkichini kirting.')
+        console.log('Xatolik boshqa foiz ko`rsatkichini kirting.');
     }
 } 
 

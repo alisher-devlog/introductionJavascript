@@ -7,20 +7,20 @@ Misol:
 Input: yosh = 20, tur = "yengil" → "Siz yengil avtomobil boshqarishingiz mumkin."
  */
 
-let age = Number(prompt(`Yoshingiz necha bek: `))
-let carType = prompt("Bu toychoq yengil avtomabilmi yoki yuk moshinami")
+let age = Number(prompt(`Yoshingiz necha bek: `));
+let carType = prompt("Bu toychoq yengil avtomabilmi yoki yuk moshinami");
 
 function task12(ageLimit, carType) {
     if(ageLimit<0){
-        console.log("Akayiz emasman bek!")
+        console.log("Akayiz emasman bek!");
     }else{
         if((ageLimit>0 && ageLimit<18) && (carType.toLowerCase() === 'yengil' || carType.toLowerCase() === 'yuk')){
-            console.log(`Buni sizga minish mumkin emas, 100$ bilan lekin hal qilamiz!`)
+            console.log(`Buni sizga minish mumkin emas, 100$ bilan lekin hal qilamiz!`);
         }else if(ageLimit>=18 && (carType.toLowerCase() == 'yengil' || carType.toLowerCase() == 'yuk')){
-            console.log(`Siz ${carType} avtomobil boshqarishingiz mumkin."`)
+            console.log(`Siz ${carType} avtomobil boshqarishingiz mumkin."`);
         }else{
-            console.log("Xatolik")
+            console.log("Xatolik");
         }
     }
 }
-task12(age,carType)
+task12(age,carType);

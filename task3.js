@@ -7,16 +7,16 @@ Input: 16 → "Siz voyaga yetmagansiz."
 Input: 20 → "Siz voyaga yetgansiz."
 */
 
-let age = Number(prompt("Iltimos yoshingizni kiriting: "))
+let age = Number(prompt("Iltimos yoshingizni kiriting: "));
 
 function task3(age) {
     if(age >= 0 && age < 18){
-        console.log("Siz voyaga yetmagansiz!")
+        console.log("Siz voyaga yetmagansiz!");
     }else if(age>=18){
-        console.log("Siz voyaga yetgansiz!")
+        console.log("Siz voyaga yetgansiz!");
     }else{
-        console.log("Natog'ri yosh")
+        console.log("Natog'ri yosh");
     }
 } 
 
-task3(age)
+task3(age);

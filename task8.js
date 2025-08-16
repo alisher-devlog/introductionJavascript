@@ -6,9 +6,9 @@ Misol:
 Input: 0°C → Kutilgan natija: "0°C = 32°F"
 */
 
-let Celsius = Number(prompt("Celsius kiriting"))
+let Celsius = Number(prompt("Celsius kiriting"));
 
 function task8(Fahrenheit) {
-    console.log(` Kutilgan natija: ${(Fahrenheit * 9/5) + 32}°F`)
+    console.log(` Kutilgan natija: ${(Fahrenheit * 9/5) + 32}°F`);
 } 
-task8(Celsius)
+task8(Celsius);

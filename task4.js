@@ -5,13 +5,13 @@ Input: 8 → "Kiritilgan son juft."
 Input: 3 → "Kiritilgan son toq."
 */
 
-let son = Number(prompt("Son kiriting: "))
+let son = Number(prompt("Son kiriting: "));
 
 function task4(son) {
     if(son%2){
-        console.log("Bu son toq son!")
+        console.log("Bu son toq son!");
     }else{
-        console.log(`Bu son juft son`)
+        console.log(`Bu son juft son`);
     }
 } 
-task4(son)
+task4(son);

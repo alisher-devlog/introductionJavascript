@@ -8,18 +8,18 @@ Misol:
 Input: 120 Mbps → "Internet juda tez."
 */
 
-let internet_speed = Number(prompt("Please, enter internet speed (Mbps)"))
+let internet_speed = Number(prompt("Please, enter internet speed (Mbps)"));
 
 function task10(speed) {
     if(speed>=0 && speed<50){
-        console.log(`Internet sekin.`)
+        console.log(`Internet sekin.`);
     }else if(speed>=50 && speed<100){
-        console.log(`Internet o'rtacha.`)
+        console.log(`Internet o'rtacha.`);
     }else if (speed>=100){
-        console.log(`Internet juda tez.`)
+        console.log(`Internet juda tez.`);
     }else{
-        console.log("Kallavaram tezlik minusdan bo'lmaydi!")
+        console.log("Kallavaram tezlik minusdan bo'lmaydi!");
     }
 } 
 
-task10(internet_speed)
+task10(internet_speed);

@@ -5,14 +5,14 @@ Misol:
 Input: 3 (sm) → Hajm: 27 sm³
 */
 
-let cube_side = Number(prompt("Kubni tomonni kiriting: "))
+let cube_side = Number(prompt("Kubni tomonni kiriting: "));
 
 function task7(tomon) {
     if(tomon>0){
-        console.log(`Hajm: ${tomon**3} sm³`)
+        console.log(`Hajm: ${tomon**3} sm³`);
     }else{
-        console.log("Xatolik")
+        console.log("Xatolik");
     }
 } 
 
-task7(cube_side)
+task7(cube_side);
